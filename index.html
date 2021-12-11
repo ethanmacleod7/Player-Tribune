@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,
+    wght@0,400;0,600;1,400;1,600&family=Nunito:wght@200;300;400;700&family=
+    Open+Sans:wght@400;700&family=Oswald:wght@200;400;600&family=Roboto:wght@100;
+    300;400;500;700&display=swap" rel="stylesheet">
+    <title>Hockey | The Players' Tribune</title>
+
+    <link rel="stylesheet" type="text/css" href="/styles/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/tablet.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/desktop.css" />
+
+
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">BASKETBALL</a>
+                    <a href="#">FOOTBALL</a>
+                    <a href="#">SOCCOR</a>
+                    <a href="#">HOCKEY</a>
+                    <a href="#">BASEBALL</a>
+                    <a href="#">OTHER SPORTS</a>
+                    <a href="#">SILENCE IS NOT AN OPTION</a>
+                    <a href="#">LETTER TO MY YOUNG SELF</a>
+                    <a href="#">COVID-19: ATHELTE IMPACT</a>
+                    <a href="#">MENTAL HEALTH AWARENESS</a>
+                    <a href="#">TRUSS LEVELZ</a>
+                    <a href="#">CONTENT PREFERENCES</a>
+            </div> 
+            
+            <span class="open" style="font-size:42px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                    <div class="logo">
+                        <img src="/images/the-players-tribune-logo-vector.svg">
+                    </div>
+                    
+                <nav class="navigation">
+                    <ul>
+                        <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">BASKETBALL</a>
+                        <i id="caret" class="fas fa-caret-up"></i>
+
+                        <div class="dropdown-content">
+                            <a href="#">BASKETBALL ARTICLES</a>
+                            <a href="#">BASKETBALL VIDEOS</a>
+                        </div>                            
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">FOOTBALL</a>
+                            <i id="caret" class="fas fa-caret-up"></i>
+
+                            <div class="dropdown-content">
+                                <a href="#">FOOTBALL ARTICLES</a>
+                                <a href="#">FOOTBALL VIDEOS</a>
+                            </div>                            
+                            <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">SOCCER</a>
+                            <i id="caret" class="fas fa-caret-up"></i>
+
+                            <div class="dropdown-content">
+                                <a href="#">SOCCER ARTICLES</a>
+                                <a href="#">SOCCER VIDEOS</a>
+                            </div>                                                    
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">HOCKEY</a>
+                                <i id="caret" class="fas fa-caret-up"></i>
+
+                                <div class="dropdown-content">
+                                    <a href="#">HOCKEY ARTICLES</a>
+                                    <a href="#">HOCKEY VIDEOS</a>
+                                </div>
+                            </li>   
+                            
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">BASEBALL</a>
+                                <i id="caret" class="fas fa-caret-up"></i>
+
+                                <div class="dropdown-content">
+                                    <a href="#">BASEBALL ARTICLES</a>
+                                    <a href="#">BASEBALL VIDEOS</a>
+                                </div>
+                            </li>  
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">OTHER SPORTS</a>
+                                <i id="caret" class="fas fa-caret-up"></i>
+
+                            </li>  
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">SILENCE IS NOT AN OPTION</a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">LETTER TO MY YOUNGER SELF</a>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">COVID-19: ATHELETE IMPACT</a>
+                            </li>
+                            
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">MENTAL HEALTH AWARENESS</a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">TRUSS LEVELZ</a>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" id="more" class="dropbtn">Content Preference</a>
+                            </li>
+                            <i id="caret" class="fas fa-caret-up"></i>
+
+
+                                <div class="dropdown-content">
+                                    <a href="#">Basketball</a>
+                                    <a href="#">Football</a>
+                                    <a href="#">Soccor</a>
+                                    <a href="#">Hockey</a>
+                                    <a href="#">Baseball</a>
+                                    <a href="#">Other Sports</a>
+                                    <a href="#">Silence is not an option</a>
+                                    <a href="#">Letter to my younger self</a>
+                                    <a href="#">COVID-19: Athlete Impact</a>
+                                    <a href="#">Mental Health Awareness</a>
+                                    <a href="#">Truss Levelz</a>
+                                    <a href="#">Content Preferences</a>
+                                </div>
+                            </li>
+                    </ul>
+                </nav>
+
+                    <div class="header-row">
+                        <div class="social">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-tiktok"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        
+                        <div class="access">
+                            <i class="fas fa-wheelchair"></i>
+                            <i class="fas fa-globe-americas"></i>
+                            <i id="caret" class="fas fa-caret-up"></i>
+                        </div>
+                </div>
+            </div>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <div class="main-img">
+            <h2>Hockey</h2>
+            <picture>
+                <source srcset="/images/main-1080.jpeg 1x,
+                /images/main-1080.jpeg 2x,
+                /images/main-1080.jpeg 3,"
+                media="(max-width: 719px)">
+                <source srcset="/images/main-2160x1215.jpeg 1x,
+                /images/main-2160x1215.jpeg 2x,
+                /images/main-2160x1215.jpeg 3x"
+                media="(max-width: 719px)">
+                <source srcset="/images/main-1080x540.jpeg 1x,
+                /images/main-1080x540.jpeg 2x, 
+                /images/main-1080x540.jpeg 3x" 
+                media="(max-width: 719px)">
+                <img src="/images/main-720x407.jpeg" 
+                alt="The Players Tribune" title="The Players Tribune">
+                
+            </picture>
+        </div>
+        
+    <!-- white container -->
+            <div id="box"> 
+                <section>
+                    <div class="stories">
+                        <h2>ALL STORIES</h2>
+                        <hr>
+                        <span></span>
+                    </div>
+                        <div class="blogs">
+                                <div class="item1">
+                                    <a href=""></a>
+                                        <img src="/images/addiciton2.jpeg"></img>
+                                        <h4>Addiction</h4>
+                                        <h5>Colin Wilson</h5>
+                                </div>
+                                <br>
+                                <div class="item2">
+                                    <picture>
+                                        <source srcset="https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_360,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 1x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 2x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 3x" media="(max-width: 719px)">
+                                        <source srcset="https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_360,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 1x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 2x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 3x" media="(max-width: 1079px)">
+                                        <source srcset="https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_360,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 1x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 2x, https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg 3x" media="(min-width: 1080px)">
+                                            <img alt="" title="" src="https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_0/c_fill,w_360,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/theplayertribune/01fhgta3f3dxkh98fnfg.jpg">
+                                            <!-- <source srcset="/images/kraken-720x405.jpeg 1x, 
+                                        /images/kraken-720x405.jpeg 2x, 
+                                        /images/kraken-720x405.jpeg 3x" 
+                                        media="(max-width: 719px)">
+                                        <source srcset="/images/kraken-720x405.jpeg 1x, 
+                                        /images/kraken-720x405.jpeg 2x, 
+                                        /images/kraken-720x405.jpeg 3x" 
+                                        media="(max-width: 1079px)">
+                                        <source srcset="/images/kraken-720x405.jpeg 1x, 
+                                        /images/kraken-720x405.jpeg 2x, 
+                                        /images/kraken-720x405.jpeg 3x" 
+                                        media="(min-width: 1080px)">
+                                        <img src="/images/kraken--355x199.jpeg" > -->
+                                    </picture>
+                                    <!-- <img src="images/img2.jpeg"></img>
+                                        <h4>I've Been Waiting My Whole Damn Life for<br> the Kraken</h4>
+                                        <h5>Chris Driedger</h5>  <a href=""></a> -->
+                                        
+                                </div>
+                                <br>
+                                <div class="item3">
+                                    <img src="images/suter1.jpeg"></img>
+                                        <h4>I'm Going to Miss You All So Much,<br> Minnesota</h4>
+                                        <h5>Ryan Suter</h5>  <a href=""></a>
+                                        
+                                </div>
+                                <br>
+                                <div class="item4">
+                                    <img src="images/img4.jpeg"></img>
+                                        <h4>Hurricanes 2021 Playoff Playlist</h4>
+                                        <h5>Vincent Trocheck</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item5">
+                                    <img src="images/img5.jpeg"></img>
+                                        <h4>Behind the Mas</h4>
+                                        <h5>Al Montoya</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item6">
+                                    <img src="images/img6.jpeg"></img>
+                                        <h4>I Was Meant To Be a Han</h4>
+                                        <h5>Tyler Toffoli</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item7">
+                                    <img src="images/img7.jpeg"></img>
+                                        <h4>A Guy Like Me</h4>
+                                        <h5>John Scott</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item8">
+                                    <img src="images/img8.jpeg"></img>
+                                        <h4>Forever a Bronco</h4>
+                                        <h5>Kaleb Dahlgren</h5>  <a href=""></a>
+                                        
+                                </div>
+                                <br>
+                                <div class="item9">
+                                    <img src="images/img9.jpeg"></img>
+                                        <h4>Be Bold</h4>
+                                        <h5>Blake Bolden</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item10">
+                                    <img src="images/img10.jpeg"></img>
+                                        <h4>Why the Black Hockey Club Matters</h4>
+                                        <h5>Saroya Tinker</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item11">
+                                    <img src="images/img11.jpeg"></img>
+                                        <h4>More than Medals</h4>
+                                        <h5>Jocelyene Lamoureux-Davidson,<br> Monique Lamoureux-Morando</h5>  <a href=""></a>
+                                        
+                                </div><br>
+                                <div class="item12">
+                                    <img src="images/img13.jpeg"></img>
+                                        <h4>Letter to My Younger Self</h4>
+                                        <h5>Mike Modano</h5>  <a href=""></a>
+                                        
+                                </div>
+                            <div class="btn">
+                                <button>
+                                    <h4>Show more</h4>
+                                </button>
+                            </div>
+                        </div>
+                </section>
+                
+            </div>
+
+
+    </main>
+
+    <!-- website link -->
+    <!-- social media links -->
+<footer>
+    <section>
+        <div class="bottom-box">
+            <div>
+                <i class="fas fa-comment"></i>
+                <hr class="left-line">
+                <hr class="right-line">
+            </div>
+
+                <nav>
+                    <a href="">ABOUT</a>
+                    <a href="">CAREERS</a>
+                    <a href="">TERMS</a>
+                    <a href="">NEWSLETTER</a>
+                    <a href="">ATHLETE APPLICATION</a>
+                    <a href="">PRIVACY</a>
+                    <a href="">COOKIE POLICY</a>
+                    <a href="">Consent Preferences</a>
+                </nav>
+
+                <hr class="bottom-line">
+
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-tiktok"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <aside>
+                    <h4>@2021 Minute Meida - All Rights Reserved</h4>
+                </aside>
+        </div>
+    </section>
+</footer>
+
+<script 
+    src="script.js">
+</script>
+
+
+</body>
+</html>

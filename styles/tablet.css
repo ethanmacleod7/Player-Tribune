@@ -1,0 +1,11 @@
+/* @media screen and (min-width: 721px){
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .item1, .item2, .item3,.item4,.item5,.item6,.item7,
+.item8,.item9,.item10,.item11, .item12{
+    
+}
+} */
